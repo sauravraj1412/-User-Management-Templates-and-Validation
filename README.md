@@ -8,7 +8,7 @@ The project consists of three primary pages :-
 3. Profile Page (profile.html) – Displays the user's name and email after a successful login.
 
 Features :-
-. Registration: Users can create a new account by providing their name, email, and password.
+* Registration: Users can create a new account by providing their name, email, and password.
 . Login: Registered users can log in with their credentials. Upon successful login, they are redirected to their profile page.
 . Profile Page: After logging in, users are presented with a simple profile page that displays their name and email.
 . Logout: Users can log out of their profile, which clears the session data from the browser and redirects them back to the login page.
