@@ -1,0 +1,108 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.pexels.com/photo/abstract-light-beams-2196482/');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #f9f9f9; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.register-card {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 100%;
+    max-width: 500px;
+}
+
+.custom-heading {
+    color: #333;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 12px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input[type="email"], input[type="password"], input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focus {
+    border-color: #007bff;
+}
+
+button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#logoutBtn {
+    background-color: #dc3545;
+}
+
+#logoutBtn:hover {
+    background-color: #c82333;
+}
+
+@media (max-width: 576px) {
+    .register-card {
+        padding: 15px;
+    }
+
+    .custom-heading {
+        font-size: 20px;
+    }
+
+    input[type="email"], input[type="password"], input[type="text"], button {
+        font-size: 14px;
+    }
+}
